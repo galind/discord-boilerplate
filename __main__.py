@@ -1,9 +1,9 @@
 import asyncio
-from core.bot import Boilerplate
+from core.bot import Bot
 
 
 async def run_bot():
-    bot = Boilerplate()
+    bot = Bot()
     await bot.start()
 
 
