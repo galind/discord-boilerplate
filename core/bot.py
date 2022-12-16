@@ -22,7 +22,7 @@ logger.addHandler(handler)
 initial_extensions = ()
 
 
-class Boilerplate(commands.Bot):
+class Bot(commands.Bot):
     def __init__(self):
         super().__init__(
             command_prefix='$',
